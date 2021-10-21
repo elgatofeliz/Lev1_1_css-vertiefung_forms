@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+input{
+    display: inline-block;
+    width: 50%;
+    height: 4vh;
+}
+
+form>div:first-child>input{
+    width: 24.9%;
+}
+
+select{
+    width: 50%;
+}
+
+option{
+    width: 50%;
+}
+
+div:nth-last-child(2)>input{
+    height: 20vh;
+}
+
+div:nth-last-child(1)>input{
+    background: darkcyan;
+}
+
+div:nth-last-child(1)>input:hover{
+    background: purple;
+}
